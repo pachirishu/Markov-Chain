@@ -1,6 +1,8 @@
 # Markov-Chain
 A MATLAB program for discrete-time Markov Chains, enabling custom state transition matrices and steady-state probability calculation.
 
+The program is designed to find the best path for a robot to escape a labyrinth. Using a simple algorithm, it considers the probability of reaching a winning zone by randomly choosing available directions—up, down, left, or right (excluding diagonals). Walls may obstruct movement between adjacent cells. The program evaluates the likelihood of reaching winning exits at the top or bottom, and losing exits on the left or right. The proposed solution efficiently determines the robot's path through the labyrinth, using Markov Chain.
+
 Function Parse_labyrinth:
 In this function, we read the dimensions of the labyrinth from a file and then read the labyrinth itself.
 
